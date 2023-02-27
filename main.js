@@ -73,7 +73,7 @@ myinfodiv.setAttribute("class","classmyinfodiv");
 
 
 // add src to myimg
-myimg.setAttribute("src","/photo.jpg")
+myimg.setAttribute("src","https://raw.githubusercontent.com/mohamed404eg/profile/main/photo.jpg")
 
 // creat contact
 let c = '</div class="contact_bottom_img">'+'<a href="https://www.facebook.com/mohamed404eg/" target="_blank" class="social-media">'+' <i class="ri-facebook-box-fill ri-2x"></i>'+'</a>'+'<a href="https://twitter.com/mohamed404eg" target="_blank" class="">'+' <i class="ri-twitter-fill ri-2x"></i>'+'</a>'+'<a href="#" class="">'+'<i class="ri-at-line ri-2x"></i>'+'</a>'+'<a href="https://www.linkedin.com/in/mohamed404eg/" class="social-media" target="_blank">'+'<i class="ri-linkedin-box-fill ri-2x"></i>'+ '</a>'+'<a href="#" class="">'+

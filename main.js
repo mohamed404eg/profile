@@ -86,3 +86,21 @@ let c = '</div class="contact_bottom_img">'+'<a href="https://www.facebook.com/m
 
 // add to mydiv2 
 mydiv2.innerHTML = c;
+
+
+
+// skills
+let html = document.querySelector(".html");
+let javascript = document.querySelector(".javascript");
+let css = document.querySelector(".css");
+let skills = document.querySelector("#skills");
+
+
+window.onscroll = () => {
+  if (window.scrollY >= skills.offsetTop - 400) {
+    html.style.cssText = "width:100%";
+    css.style.cssText = "width:100%";
+    javascript.style.cssText = "width:100%";
+  }
+};
+

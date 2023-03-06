@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact {
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.name {
+    width: 30%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.name::placeholder {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.number {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.number::placeholder {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.subject {
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.subject::placeholder {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.submit {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#1a2238 ;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: -2px 5px 5px rgb(138, 138, 138) ;
+
+}
+
+.social-medias {
+    display: flex;
+    gap: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#contact p {
+    text-align: center;
+}
